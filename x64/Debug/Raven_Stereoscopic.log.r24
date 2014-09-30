@@ -1,0 +1,27 @@
+﻿Build started 8/18/2014 9:45:22 AM.
+     1>Project "C:\Users\PH\Desktop\Cliff\Raven_Stereoscopic\Raven_Stereoscopic.vcxproj" on node 2 (build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>InitializeBuildStatus:
+         Creating "x64\Debug\Raven_Stereoscopic.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /IC:\freeglut\include /I"C:\Program Files\Point Grey Research\FlyCapture2\include" /Zi /nologo /W4 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\Raven_Stereoscopic.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt FL3Camera.cpp
+         FL3Camera.cpp
+     1>c:\freeglut\include\gl\freeglut_std.h(614): warning C4505: 'glutInit_ATEXIT_HACK' : unreferenced local function has been removed
+     1>c:\freeglut\include\gl\freeglut_std.h(616): warning C4505: 'glutCreateWindow_ATEXIT_HACK' : unreferenced local function has been removed
+     1>c:\freeglut\include\gl\freeglut_std.h(618): warning C4505: 'glutCreateMenu_ATEXIT_HACK' : unreferenced local function has been removed
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"bin64\Raven_Stereoscopic.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\freeglut\lib\x64 /LIBPATH:"C:\Program Files\Point Grey Research\FlyCapture2\lib64" FlyCapture2_v100.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\Raven_Stereoscopic.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\PH\Desktop\Cliff\Raven_Stereoscopic\bin64\Raven_Stereoscopic.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin64\Raven_Stereoscopic.lib" /MACHINE:X64 x64\Debug\FL3Camera.obj
+         x64\Debug\Raven_Stereoscopic.obj
+         x64\Debug\stdafx.obj
+         Raven_Stereoscopic.vcxproj -> C:\Users\PH\Desktop\Cliff\Raven_Stereoscopic\bin64\Raven_Stereoscopic.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"bin64\Raven_Stereoscopic.exe;#1" /manifest x64\Debug\Raven_Stereoscopic.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\Raven_Stereoscopic.unsuccessfulbuild".
+         Touching "x64\Debug\Raven_Stereoscopic.lastbuildstate".
+     1>Done Building Project "C:\Users\PH\Desktop\Cliff\Raven_Stereoscopic\Raven_Stereoscopic.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.78

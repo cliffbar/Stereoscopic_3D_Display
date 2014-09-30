@@ -1,0 +1,29 @@
+﻿Build started 8/27/2014 4:19:02 PM.
+     1>Project "C:\Users\Cliff\Documents\NRI-Raven\Raven_Stereoscopic\Raven_Stereoscopic.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\freeglut\include /I"C:\Program Files\Point Grey Research\FlyCapture2\include" /Zi /nologo /W4 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\Raven_Stereoscopic.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Raven_Stereoscopic.cpp
+         Raven_Stereoscopic.cpp
+     1>Raven_Stereoscopic.cpp(184): warning C4127: conditional expression is constant
+     1>Raven_Stereoscopic.cpp(290): warning C4127: conditional expression is constant
+     1>Raven_Stereoscopic.cpp(303): warning C4127: conditional expression is constant
+     1>Raven_Stereoscopic.cpp(333): warning C4127: conditional expression is constant
+     1>Raven_Stereoscopic.cpp(366): warning C4127: conditional expression is constant
+     1>Raven_Stereoscopic.cpp(411): warning C4127: conditional expression is constant
+     1>Raven_Stereoscopic.cpp(430): warning C4127: conditional expression is constant
+     1>Raven_Stereoscopic.cpp(435): warning C4127: conditional expression is constant
+     1>Raven_Stereoscopic.cpp(460): warning C4127: conditional expression is constant
+     1>Raven_Stereoscopic.cpp(472): warning C4127: conditional expression is constant
+     1>Raven_Stereoscopic.cpp(484): warning C4127: conditional expression is constant
+     1>Raven_Stereoscopic.cpp(496): warning C4127: conditional expression is constant
+     1>Raven_Stereoscopic.cpp(508): warning C4127: conditional expression is constant
+     1>c:\freeglut\include\gl\freeglut_std.h(618): warning C4505: 'glutCreateMenu_ATEXIT_HACK' : unreferenced local function has been removed
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"bin64\Raven_Stereoscopic.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\freeglut\lib\x64 /LIBPATH:"C:\Program Files\Point Grey Research\FlyCapture2\lib64" FlyCapture2_v100.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"bin64\Raven_Stereoscopic.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin64\Raven_Stereoscopic.lib" /MACHINE:X64 x64\Debug\FL3Camera.obj
+         x64\Debug\Raven_Stereoscopic.obj
+         x64\Debug\stdafx.obj
+         Raven_Stereoscopic.vcxproj -> C:\Users\Cliff\Documents\NRI-Raven\Raven_Stereoscopic\bin64\Raven_Stereoscopic.exe
+     1>Done Building Project "C:\Users\Cliff\Documents\NRI-Raven\Raven_Stereoscopic\Raven_Stereoscopic.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.12
